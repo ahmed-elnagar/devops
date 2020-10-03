@@ -9,10 +9,8 @@
 # Step 2
 # Run the Docker Hub container with kubernetes
 
-
 # Step 3:
 # List kubernetes pods
-
+kubectl list pods
 # Step 4:
 # Forward the container port to a host
-
