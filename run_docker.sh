@@ -10,4 +10,4 @@ docker build --tag=devops-proj4 .
 docker image ls
 # Step 3: 
 # Run flask app
-docker -d run -p 8080:80 devops-proj4
+docker -d run -p 8000:80 devops-proj4
