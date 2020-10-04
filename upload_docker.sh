@@ -11,8 +11,8 @@ dockerpath=elnaggar3012/proj4
 # Authenticate & tag
 echo "Docker ID and Image: $dockerpath"
 docker login --username elnaggar3012
-docker tag udacityproject $dockerpath
+docker tag devops-proj4 $dockerpath
 
 # Step 3:
 # Push image to a docker repository
-docker push $elnaggar3012/udacityproject
+docker push $elnaggar3012/devops-proj4
