@@ -12,5 +12,3 @@ lint:
 
 all: install lint test
 
-
-##some wrong code
