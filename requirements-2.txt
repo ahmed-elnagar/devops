@@ -1,8 +1,0 @@
-pylint
-wikipedia
-python-json-logger
-boto3
-flask
-pandas
-sklearn
-joblib
