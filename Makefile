@@ -8,7 +8,7 @@ test:
 	#PYTHONPATH=. && py.test --nbval-lax notebooks/*.ipynb
 
 lint:
-	pylint --disable=R,C,W1203 app.py
+	pylint --disable=R,C,W1203,W1309 app.py
 
 all: install lint test
 
