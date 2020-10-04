@@ -6,7 +6,7 @@
 # Step 1:
 # Create dockerpath
 # dockerpath=<your docker ID/path>
-dockerpath=elnaggar3012/proj4
+dockerpath=elnaggar3012/devops-proj4
 # Step 2:  
 # Authenticate & tag
 echo "Docker ID and Image: $dockerpath"
@@ -15,4 +15,4 @@ docker tag devops-proj4 $dockerpath
 
 # Step 3:
 # Push image to a docker repository
-docker push $elnaggar3012/devops-proj4
+docker push elnaggar3012/devops-proj4
