@@ -1,5 +1,6 @@
 setup:
 	python3 -m venv ~/.proj4
+	#source ~/.proj4/bin/activate
 install:
 	pip install --upgrade pip &&\
 		pip install -r requirements.txt
